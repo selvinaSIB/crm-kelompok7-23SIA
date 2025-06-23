@@ -9,6 +9,10 @@ import ContentManagement from "./pages/ContentManagement";
 import InvoicingPage from "./pages/InvoicingPage";
 import ServiceConfigurationPage from "./pages/ServiceConfigurationPage";
 import WorkflowDevelopment from "./pages/WorkFlowDevelopment";
+import User from "./pages/User";
+
+
+
 
 function App() {
   return (
@@ -26,6 +30,8 @@ function App() {
         <Route path="/workflow" element={<WorkflowDevelopment />} />
         <Route path="/contact" element={<ContactManagement />} />
         <Route path="/content" element={<ContentManagement />} />
+        <Route path="/user" element={<User />} />
+
       </Route>
     </Routes>
   );
