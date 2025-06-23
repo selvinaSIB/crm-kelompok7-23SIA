@@ -58,9 +58,6 @@ const ServiceConfigurationPage = () => {
       <h1 className="text-2xl font-bold">Service Configuration</h1>
       <div className="flex justify-between items-center">
         <h2 className="text-lg font-semibold">Daftar Layanan</h2>
-        <button className="bg-indigo-600 text-white px-4 py-2 rounded-full flex items-center gap-2">
-          <FaPlus /> Tambah Layanan
-        </button>
       </div>
       <div className="bg-white rounded-xl shadow p-4 overflow-x-auto">
         <table className="w-full text-sm text-left">
